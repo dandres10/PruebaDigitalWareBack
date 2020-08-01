@@ -1,0 +1,5 @@
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Datos\bin\Debug\netcoreapp3.1\Base.Datos.deps.json
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Datos\bin\Debug\netcoreapp3.1\Base.Datos.dll
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Datos\obj\Debug\netcoreapp3.1\Base.Datos.csprojAssemblyReference.cache
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Datos\obj\Debug\netcoreapp3.1\Base.Datos.AssemblyInfoInputs.cache
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Datos\obj\Debug\netcoreapp3.1\Base.Datos.AssemblyInfo.cs

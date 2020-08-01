@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Acciones\Entidades\" />
+    <Folder Include="Clases\" />
+    <Folder Include="DTO\EntidadesRepositorio\" />
+    <Folder Include="Enumeraciones\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Validaciones\" />
+    <Folder Include="RecursosTexto\" />
+  </ItemGroup>
+
+</Project>
