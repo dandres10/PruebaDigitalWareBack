@@ -1,8 +1,12 @@
 namespace API
 {
     using AutoMapper;
+    using Base.Datos.Clases.DAL;
+    using Base.Datos.Contexto;
+    using Base.Negocio.BL;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
+    using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
@@ -19,7 +23,13 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
-            //services.AddDbContext<Context>(options => options.UseSqlServer(Configuration.GetConnectionString("AppConnection")));
+            services.AddDbContext<Contexto>(options => options.UseSqlServer(Configuration.GetConnectionString("AppConnection")));
+
+            //Cliente
+            services.AddScoped<ClienteDAL>();
+            services.AddScoped<ClienteBL>();
+            
+
             services.AddControllers();
         }
 

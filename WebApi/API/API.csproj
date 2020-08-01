@@ -6,10 +6,16 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Clases\" />
+    <ProjectReference Include="..\Base.Datos\Base.Datos.csproj" />
+    <ProjectReference Include="..\Base.IC\Base.IC.csproj" />
+    <ProjectReference Include="..\Base.Negocio\Base.Negocio.csproj" />
   </ItemGroup>
 
 

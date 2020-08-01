@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JO7bR/QfnTTF9xuu5fXns+KQlyLBNY2hWNGYBLvKpYocRyI3REdCQWNg4fgcwRTi8YOErsgxqBnlDfJsrVF7Yw==",
+  "dgSpecHash": "gnwu60Abt7XZeB2J9n5JgFmAZf8RRtHWltrSGv+Cp9KDgaqcvIiDg0ekSt+2IgIvV4jp/OAbLPLBASI73xRGxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dandr\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\dandr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\dandr\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

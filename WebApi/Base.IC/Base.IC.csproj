@@ -5,13 +5,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Acciones\Entidades\" />
-    <Folder Include="Clases\" />
-    <Folder Include="DTO\EntidadesRepositorio\" />
-    <Folder Include="Enumeraciones\" />
-    <Folder Include="Mapper\" />
     <Folder Include="Validaciones\" />
-    <Folder Include="RecursosTexto\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="RecursosTexto\MensajesBase.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MensajesBase.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="RecursosTexto\MensajesBase.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MensajesBase.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

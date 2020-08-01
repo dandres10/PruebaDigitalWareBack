@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BL\" />
-    <Folder Include="BO\" />
+    <ProjectReference Include="..\Base.Datos\Base.Datos.csproj" />
+    <ProjectReference Include="..\Base.IC\Base.IC.csproj" />
   </ItemGroup>
 
 </Project>
