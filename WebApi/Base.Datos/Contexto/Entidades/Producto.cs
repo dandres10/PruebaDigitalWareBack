@@ -1,12 +1,14 @@
-﻿namespace Base.Datos.Contexto.Entidades
-{
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
+namespace Base.Datos.Contexto.Entidades
+{
     public partial class Producto
     {
         public Producto()
         {
             InventarioProducto = new HashSet<InventarioProducto>();
+            ProductoCompraCliente = new HashSet<ProductoCompraCliente>();
         }
 
         public int Codigo { get; set; }
@@ -14,5 +16,6 @@
         public decimal Precio { get; set; }
 
         public virtual ICollection<InventarioProducto> InventarioProducto { get; set; }
+        public virtual ICollection<ProductoCompraCliente> ProductoCompraCliente { get; set; }
     }
 }

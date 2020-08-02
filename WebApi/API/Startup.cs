@@ -28,7 +28,16 @@ namespace API
             //Cliente
             services.AddScoped<ClienteDAL>();
             services.AddScoped<ClienteBL>();
-            
+            //Compra
+            services.AddScoped<CompraDAL>();
+            services.AddScoped<CompraBL>();
+            //InventarioProducto
+            services.AddScoped<InventarioProductoDAL>();
+            services.AddScoped<InventarioProductoBL>();
+            //ProductoCompraCliente
+            services.AddScoped<ProductoCompraClienteBL>();
+            services.AddScoped<ProductoCompraClienteDAL>();
+
 
             services.AddControllers();
         }

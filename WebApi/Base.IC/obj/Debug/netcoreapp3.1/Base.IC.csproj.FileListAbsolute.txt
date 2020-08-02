@@ -1,11 +1,11 @@
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\bin\Debug\netcoreapp3.1\Base.IC.deps.json
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\bin\Debug\netcoreapp3.1\Base.IC.dll
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\bin\Debug\netcoreapp3.1\Base.IC.pdb
-C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.AssemblyInfoInputs.cache
-C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.AssemblyInfo.cs
-C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.dll
-C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.pdb
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csprojAssemblyReference.cache
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.RecursosTexto.MensajesBase.resources
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csproj.GenerateResource.cache
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.AssemblyInfoInputs.cache
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.AssemblyInfo.cs
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csproj.CoreCompileInputs.cache
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.dll
+C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.pdb

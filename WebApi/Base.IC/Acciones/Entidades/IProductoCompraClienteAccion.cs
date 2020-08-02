@@ -7,7 +7,9 @@
     public interface IProductoCompraClienteAccion
     {
         Task<Respuesta<IProductoCompraClienteDTO>> GuardarProductoCompraCliente(IProductoCompraClienteDTO inventarioProducto);
-
         
+        Task<Respuesta<IProductoCompraClienteDTO>> ConsultarListaProductoCompraCliente();
+
+
     }
 }

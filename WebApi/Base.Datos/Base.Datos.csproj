@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Base.IC\Base.IC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contexto\Entidades\" />
+  </ItemGroup>
+
 </Project>

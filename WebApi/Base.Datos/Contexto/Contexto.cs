@@ -25,10 +25,10 @@
             modelBuilder.Entity<Cliente>(entity =>
             {
                 entity.HasKey(e => e.Codigo)
-                    .HasName("PK__Cliente__06370DAD7181F2C4");
+                    .HasName("PK__Cliente__06370DADD835A887");
 
                 entity.HasIndex(e => e.Cedula)
-                    .HasName("UQ__Cliente__B4ADFE388D0A6F14")
+                    .HasName("UQ__Cliente__B4ADFE38FB4A6E10")
                     .IsUnique();
 
                 entity.Property(e => e.FechaNacimiento).HasColumnType("datetime");
@@ -49,7 +49,7 @@
             modelBuilder.Entity<Compra>(entity =>
             {
                 entity.HasKey(e => e.Codigo)
-                    .HasName("PK__Compra__06370DAD542FCBBC");
+                    .HasName("PK__Compra__06370DAD216AE2A1");
 
                 entity.Property(e => e.FechaCompra).HasColumnType("datetime");
 
@@ -59,7 +59,7 @@
             modelBuilder.Entity<InventarioProducto>(entity =>
             {
                 entity.HasKey(e => e.Codigo)
-                    .HasName("PK__Inventar__06370DADBCEA66D1");
+                    .HasName("PK__Inventar__06370DAD1994EC35");
 
                 entity.HasOne(d => d.CodigoProductoNavigation)
                     .WithMany(p => p.InventarioProducto)
@@ -71,7 +71,7 @@
             modelBuilder.Entity<Producto>(entity =>
             {
                 entity.HasKey(e => e.Codigo)
-                    .HasName("PK__Producto__06370DAD7003C5F6");
+                    .HasName("PK__Producto__06370DAD224BF5AA");
 
                 entity.Property(e => e.Nombre)
                     .IsRequired()
@@ -82,24 +82,25 @@
 
             modelBuilder.Entity<ProductoCompraCliente>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.Codigo)
+                    .HasName("PK__Producto__06370DADAEFC38D6");
 
                 entity.ToTable("Producto_Compra_Cliente");
 
                 entity.HasOne(d => d.CodigoClienteNavigation)
-                    .WithMany()
+                    .WithMany(p => p.ProductoCompraCliente)
                     .HasForeignKey(d => d.CodigoCliente)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Productos_Compras_Clientes_CodigoCliente");
 
                 entity.HasOne(d => d.CodigoCompraNavigation)
-                    .WithMany()
+                    .WithMany(p => p.ProductoCompraCliente)
                     .HasForeignKey(d => d.CodigoCompra)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Productos_Compras_Clientes_CodigoCompra");
 
                 entity.HasOne(d => d.CodigoProductoNavigation)
-                    .WithMany()
+                    .WithMany(p => p.ProductoCompraCliente)
                     .HasForeignKey(d => d.CodigoProducto)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Productos_Compras_Clientes_CodigoProducto");

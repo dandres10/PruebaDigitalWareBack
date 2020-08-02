@@ -1,4 +1,7 @@
-﻿namespace Base.Datos.Contexto.Entidades
+﻿using System;
+using System.Collections.Generic;
+
+namespace Base.Datos.Contexto.Entidades
 {
     public partial class InventarioProducto
     {

@@ -41,7 +41,7 @@
                 datos = await contexto.Cliente.FirstOrDefaultAsync(x => x.Codigo == cliente.Codigo);
                 if (datos == null)
                 {
-                  
+
                     listaMensajes.Add(MensajesBase.DatoNoEncontrado);
                     Respuesta = Respuestas.Alerta(listaMensajes);
                 }
@@ -55,7 +55,7 @@
             }
             catch (Exception)
             {
-               
+
                 listaMensajes.Add(MensajesBase.ConsultaFallida);
                 Respuesta = Respuestas.Fallida(listaMensajes);
             }
@@ -69,11 +69,11 @@
                 listaCliente = mapper.Map<List<IClienteDTO>>(await contexto.Cliente.ToListAsync());
                 listaMensajes.Add(MensajesBase.ConsultaExitosa);
                 Respuesta = Respuestas.Exitosa(listaCliente, listaMensajes);
-                
+
             }
             catch (Exception)
             {
-                
+
                 listaMensajes.Add(MensajesBase.ConsultaFallida);
                 Respuesta = Respuestas.Fallida(listaMensajes);
             }
@@ -89,13 +89,13 @@
                 listaCliente.Add(mapper.Map<Cliente>(cliente));
                 listaMensajes.Add(MensajesBase.DatosEditados);
                 Respuesta = Respuestas.Exitosa(listaCliente, listaMensajes);
-                
+
             }
             catch (Exception)
             {
                 listaMensajes.Add(MensajesBase.DatosNoEditados);
                 Respuesta = Respuestas.Fallida(listaMensajes);
-                
+
             }
             return Respuesta;
         }
@@ -104,15 +104,15 @@
         {
             try
             {
-                
+
                 int clienteId = await contexto.Cliente.Select(x => x.Codigo).FirstOrDefaultAsync(x => x == cliente.Codigo);
-                
+
                 if (clienteId == default(int))
                 {
                     listaCliente.Add(cliente);
                     listaMensajes.Add(MensajesBase.DatoNoEncontrado);
                     Respuesta = Respuestas.Alerta(listaCliente, listaMensajes);
-                    
+
                 }
                 else
                 {
@@ -120,14 +120,14 @@
                     await contexto.SaveChangesAsync();
                     listaMensajes.Add(MensajesBase.EliminacionExitosa);
                     Respuesta = Respuestas.Exitosa(listaMensajes);
-                    
+
                 }
             }
             catch (Exception)
             {
                 listaMensajes.Add(MensajesBase.EliminacionFallida);
                 Respuesta = Respuestas.Fallida(listaMensajes);
-                
+
             }
 
             return Respuesta;
@@ -142,11 +142,11 @@
                 await contexto.SaveChangesAsync();
                 listaMensajes.Add(MensajesBase.GuardadoExitoso);
                 Respuesta = Respuestas.Exitosa(listaCliente, listaMensajes);
-                
+
             }
             catch (Exception)
             {
-                
+
                 listaMensajes.Add(MensajesBase.GuardadoFallido);
                 Respuesta = Respuestas.Fallida(listaMensajes);
             }
