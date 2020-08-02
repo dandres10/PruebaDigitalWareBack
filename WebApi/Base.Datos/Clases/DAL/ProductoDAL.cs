@@ -186,5 +186,49 @@
                 Precio = Convert.ToDecimal(reader["Precio"])
             };
         }
+
+        public async Task<Respuesta<IListaProductosVendidoAnoSpDTO>> ListaProductosVendidoAno(IRequestListaProductosVendidoAnoSpDTO datos)
+        {
+            Respuesta<IListaProductosVendidoAnoSpDTO> RespuestaConsulta = new Respuesta<IListaProductosVendidoAnoSpDTO>();
+            Respuestas<IListaProductosVendidoAnoSpDTO> RespuestasConsulta = new Respuestas<IListaProductosVendidoAnoSpDTO>();
+            using (SqlConnection sql = new SqlConnection(configuration.GetConnectionString("AppConnection")))
+            {
+                using (SqlCommand cmd = new SqlCommand("SP_ListaProductosVendidoAno", sql))
+                {
+                    List<ListaProductosVendidoAnoSpDO> listaProductosVendidoAno = new List<ListaProductosVendidoAnoSpDO>();
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    cmd.Parameters.Add(new SqlParameter("@ano", datos.Ano));
+                    await sql.OpenAsync();
+
+                    using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            listaProductosVendidoAno.Add(MapperListaProductosVendidoAno(reader));
+                        }
+
+                    }
+                    listaMensajes.Add(MensajesBase.ConsultaExitosa);
+                    RespuestaConsulta = RespuestasConsulta.Exitosa(mapper.Map<List<IListaProductosVendidoAnoSpDTO>>(listaProductosVendidoAno), listaMensajes);
+
+                    return RespuestaConsulta;
+                }
+            }
+        }
+
+        private ListaProductosVendidoAnoSpDO MapperListaProductosVendidoAno(SqlDataReader reader) {
+
+            return new ListaProductosVendidoAnoSpDO
+            {
+                Cantidad = (int)reader["Cantidad"],
+                CodigoProducto = (int)reader["CodigoProducto"],
+                Nombre = reader["Nombre"].ToString(),
+                ValorUnidad = (decimal)reader["ValorUnidad"],
+                Vendido = (decimal)reader["Vendido"]
+
+            };
+
+
+        }
     }
 }

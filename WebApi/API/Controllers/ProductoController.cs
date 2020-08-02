@@ -62,5 +62,12 @@
         {
             return mapper.Map<Respuesta<ProductosCantidadMinimaPermitidaSpB>>(await productoBL.ProductosCantidadMinimaPermitida(requestProductosCantidadPermitida.cantidadMinima));
         }
+
+        [HttpPost]
+        [Route("ConsultarListaProductosVendidoAno")]
+        public async Task<Respuesta<ListaProductosVendidoAnoSpB>> ListaProductosVendidoAno(RequestListaProductosVendidoAnoSpB datos)
+        {
+            return mapper.Map<Respuesta<ListaProductosVendidoAnoSpB>>(await productoBL.ListaProductosVendidoAno(datos));
+        }
     }
 }

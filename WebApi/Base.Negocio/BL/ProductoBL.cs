@@ -45,5 +45,10 @@
         {
             return await productoDAL.ProductosCantidadMinimaPermitida(cantidadMinima);
         }
+
+        public async Task<Respuesta<IListaProductosVendidoAnoSpDTO>> ListaProductosVendidoAno(IRequestListaProductosVendidoAnoSpDTO datos)
+        {
+            return await productoDAL.ListaProductosVendidoAno(datos);
+        }
     }
 }

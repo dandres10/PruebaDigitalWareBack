@@ -18,5 +18,7 @@
         Task<Respuesta<IProductoDTO>> EliminarProducto(IProductoDTO producto);
 
         Task<Respuesta<IProductosCantidadMinimaPermitidaSpDTO>> ProductosCantidadMinimaPermitida(int cantidadMinima);
+
+        Task<Respuesta<IListaProductosVendidoAnoSpDTO>> ListaProductosVendidoAno(IRequestListaProductosVendidoAnoSpDTO datos);
     }
 }

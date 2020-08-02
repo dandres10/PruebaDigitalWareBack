@@ -38,9 +38,16 @@
             CreateMap<ProductoB, IProductoDTO>().ReverseMap();
             CreateMap<Producto, IProductoDTO>().ReverseMap();
             //consultasProducto
+            //ProductosCantidadMinimaPermitida
             CreateMap<Respuesta<ProductosCantidadMinimaPermitidaSpB>, Respuesta<IProductosCantidadMinimaPermitidaSpDTO>>().ReverseMap();
             CreateMap<ProductosCantidadMinimaPermitidaSpDO, IProductosCantidadMinimaPermitidaSpDTO>().ReverseMap();
             CreateMap<ProductosCantidadMinimaPermitidaSpB, IProductosCantidadMinimaPermitidaSpDTO>().ReverseMap();
+            //ProductosVendidoAno
+            CreateMap<Respuesta<ListaProductosVendidoAnoSpB>, Respuesta<IListaProductosVendidoAnoSpDTO>>().ReverseMap();
+            CreateMap<ListaProductosVendidoAnoSpDO, IListaProductosVendidoAnoSpDTO>().ReverseMap();
+            CreateMap<ListaProductosVendidoAnoSpB, IListaProductosVendidoAnoSpDTO>().ReverseMap();
+            CreateMap<RequestListaProductosVendidoAnoSpB, IRequestListaProductosVendidoAnoSpDTO>().ReverseMap();
+            //
             //consultaCliente
             CreateMap<Respuesta<ClientesFiltroEdadFechaCompraSpB>, Respuesta<IClientesFiltroEdadFechaCompraSpDTO>>().ReverseMap();
             CreateMap<ClientesFiltroEdadFechaCompraSpDO, IClientesFiltroEdadFechaCompraSpDTO>().ReverseMap();
