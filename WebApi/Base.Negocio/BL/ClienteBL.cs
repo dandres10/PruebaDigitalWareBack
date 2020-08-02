@@ -3,6 +3,7 @@
     using Base.Datos.Clases.DAL;
     using Base.IC.Acciones.Entidades;
     using Base.IC.ClasesTransversales;
+    using Base.IC.DTO.Consultas.Cliente;
     using Base.IC.DTO.EntidadesRepositorio;
     using System.Threading.Tasks;
 
@@ -38,6 +39,11 @@
         public async Task<Respuesta<IClienteDTO>> GuardarCliente(IClienteDTO cliente)
         {
             return await clienteDAL.GuardarCliente(cliente);
+        }
+
+        public async Task<Respuesta<IClientesFiltroEdadFechaCompraSpDTO>> ClientesFiltroEdadFechaCompra(IRequestClientesFiltroEdadFechaCompraSpDTO datosConsulta)
+        {
+            return await clienteDAL.ClientesFiltroEdadFechaCompra(datosConsulta);
         }
     }
 }

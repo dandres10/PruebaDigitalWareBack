@@ -1,6 +1,7 @@
 ﻿namespace Base.IC.Acciones.Entidades
 {
     using Base.IC.ClasesTransversales;
+    using Base.IC.DTO.Consultas.Producto;
     using Base.IC.DTO.EntidadesRepositorio;
     using System.Threading.Tasks;
 
@@ -15,5 +16,7 @@
         Task<Respuesta<IProductoDTO>> ConsultarListaProducto();
 
         Task<Respuesta<IProductoDTO>> EliminarProducto(IProductoDTO producto);
+
+        Task<Respuesta<IProductosCantidadMinimaPermitidaSpDTO>> ProductosCantidadMinimaPermitida(int cantidadMinima);
     }
 }

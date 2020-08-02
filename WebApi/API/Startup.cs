@@ -37,6 +37,9 @@ namespace API
             //ProductoCompraCliente
             services.AddScoped<ProductoCompraClienteBL>();
             services.AddScoped<ProductoCompraClienteDAL>();
+            //Producto
+            services.AddScoped<ProductoDAL>();
+            services.AddScoped<ProductoBL>();
 
 
             services.AddControllers();

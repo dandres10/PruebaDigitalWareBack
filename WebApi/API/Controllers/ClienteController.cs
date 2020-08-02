@@ -3,6 +3,7 @@
     using API.Clases.Cliente;
     using AutoMapper;
     using Base.IC.ClasesTransversales;
+    using Base.IC.DTO.Consultas.Cliente;
     using Base.IC.DTO.EntidadesRepositorio;
     using Base.Negocio.BL;
     using Microsoft.AspNetCore.Mvc;
@@ -54,6 +55,14 @@
         public async Task<Respuesta<ClienteB>> EliminarCliente(ClienteB cliente)
         {
             return mapper.Map<Respuesta<ClienteB>>(await clienteBL.EliminarCliente(mapper.Map<IClienteDTO>(cliente)));
+        }
+
+
+        [HttpPost]
+        [Route("ConsultarClientesFiltroEdadFechaCompra")]
+        public async Task<Respuesta<ClientesFiltroEdadFechaCompraSpB>> ClientesFiltroEdadFechaCompra(RequestClientesFiltroEdadFechaCompraSpB datos)
+        {
+            return mapper.Map<Respuesta<ClientesFiltroEdadFechaCompraSpB>>(await clienteBL.ClientesFiltroEdadFechaCompra(mapper.Map<IRequestClientesFiltroEdadFechaCompraSpDTO>(datos)));
         }
     }
 }

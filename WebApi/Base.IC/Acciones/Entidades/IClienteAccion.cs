@@ -1,6 +1,7 @@
 ﻿namespace Base.IC.Acciones.Entidades
 {
     using Base.IC.ClasesTransversales;
+    using Base.IC.DTO.Consultas.Cliente;
     using Base.IC.DTO.EntidadesRepositorio;
     using System.Threading.Tasks;
 
@@ -15,5 +16,7 @@
         Task<Respuesta<IClienteDTO>> ConsultarListaCliente();
 
         Task<Respuesta<IClienteDTO>> EliminarCliente(IClienteDTO cliente);
+
+        Task<Respuesta<IClientesFiltroEdadFechaCompraSpDTO>> ClientesFiltroEdadFechaCompra(IRequestClientesFiltroEdadFechaCompraSpDTO datosConsulta);
     }
 }

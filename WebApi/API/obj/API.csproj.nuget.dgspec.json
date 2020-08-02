@@ -31,9 +31,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj": {
-                "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj"
-              },
               "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
                 "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
               },
