@@ -49,7 +49,7 @@
             return mapper.Map<Respuesta<ProductoB>>(await productoBL.EditarProducto(mapper.Map<IProductoDTO>(producto)));
         }
 
-        [HttpDelete]
+        [HttpPost]
         [Route("EliminarProducto")]
         public async Task<Respuesta<ProductoB>> EliminarProducto(ProductoB producto)
         {
