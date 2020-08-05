@@ -132,9 +132,11 @@
         {
             try
             {
-                listaProducto.Add(producto);
-                contexto.Add(mapper.Map<Producto>(producto));
+            
+                datos = mapper.Map<Producto>(producto);
+                contexto.Add(datos);
                 await contexto.SaveChangesAsync();
+                listaProducto.Add(mapper.Map<IProductoDTO>(datos));
                 listaMensajes.Add(MensajesBase.GuardadoExitoso);
                 Respuesta = Respuestas.Exitosa(listaProducto, listaMensajes);
             }
