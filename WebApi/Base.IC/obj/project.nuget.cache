@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gnwu60Abt7XZeB2J9n5JgFmAZf8RRtHWltrSGv+Cp9KDgaqcvIiDg0ekSt+2IgIvV4jp/OAbLPLBASI73xRGxQ==",
+  "dgSpecHash": "v7JFxPh1+1FBdHTYqnhMdVy7qk/oJ86aRncf3V7cO64Unji5cII3WNKQBnzDaFYePL6E6NckcdnYg+qVZ4Nd1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
+  "projectFilePath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dandr\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
-    "C:\\Users\\dandr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\dandr\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\Andres\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\Andres\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andres\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

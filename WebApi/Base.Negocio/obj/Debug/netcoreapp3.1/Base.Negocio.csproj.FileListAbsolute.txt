@@ -12,3 +12,17 @@ C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Negocio\obj
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.csproj.CopyComplete
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.dll
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.pdb
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.Negocio.deps.json
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.Negocio.dll
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.Negocio.pdb
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.Datos.dll
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.IC.dll
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.Datos.pdb
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\bin\Debug\netcoreapp3.1\Base.IC.pdb
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.csprojAssemblyReference.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.AssemblyInfoInputs.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.AssemblyInfo.cs
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.csproj.CoreCompileInputs.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.csproj.CopyComplete
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.dll
+D:\git\PruebaDigitalWareBack\WebApi\Base.Negocio\obj\Debug\netcoreapp3.1\Base.Negocio.pdb

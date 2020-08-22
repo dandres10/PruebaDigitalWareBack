@@ -9,3 +9,14 @@ C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debu
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csproj.CoreCompileInputs.cache
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.dll
 C:\Users\dandr\Desktop\DigitalWare\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.pdb
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\bin\Debug\netcoreapp3.1\Base.IC.deps.json
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\bin\Debug\netcoreapp3.1\Base.IC.dll
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\bin\Debug\netcoreapp3.1\Base.IC.pdb
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csprojAssemblyReference.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.RecursosTexto.MensajesBase.resources
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csproj.GenerateResource.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.AssemblyInfoInputs.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.AssemblyInfo.cs
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.csproj.CoreCompileInputs.cache
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.dll
+D:\git\PruebaDigitalWareBack\WebApi\Base.IC\obj\Debug\netcoreapp3.1\Base.IC.pdb

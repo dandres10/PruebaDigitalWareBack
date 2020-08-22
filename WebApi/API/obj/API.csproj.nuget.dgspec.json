@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj": {}
+    "D:\\git\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj": {
+    "D:\\git\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj",
+        "projectUniqueName": "D:\\git\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\dandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\API\\obj\\",
+        "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
-                "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
+              "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
+                "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
               },
-              "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj": {
-                "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj"
+              "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj": {
+                "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj"
               }
             }
           }
@@ -78,26 +74,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj": {
+    "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj",
+        "projectUniqueName": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj",
         "projectName": "Base.Datos",
-        "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj",
-        "packagesPath": "C:\\Users\\dandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\obj\\",
+        "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -109,8 +101,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
-                "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
+              "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
+                "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
               }
             }
           }
@@ -160,26 +152,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
+    "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
+        "projectUniqueName": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
         "projectName": "Base.IC",
-        "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
-        "packagesPath": "C:\\Users\\dandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\obj\\",
+        "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -222,26 +210,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj": {
+    "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj",
+        "projectUniqueName": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj",
         "projectName": "Base.Negocio",
-        "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj",
-        "packagesPath": "C:\\Users\\dandr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\obj\\",
+        "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\Base.Negocio.csproj",
+        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Negocio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -253,11 +237,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj": {
-                "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj"
+              "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj": {
+                "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.Datos\\Base.Datos.csproj"
               },
-              "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
-                "projectPath": "C:\\Users\\dandr\\Desktop\\DigitalWare\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
+              "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj": {
+                "projectPath": "D:\\git\\PruebaDigitalWareBack\\WebApi\\Base.IC\\Base.IC.csproj"
               }
             }
           }
@@ -285,7 +269,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

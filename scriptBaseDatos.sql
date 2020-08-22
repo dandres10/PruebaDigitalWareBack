@@ -84,31 +84,30 @@ INSERT
 INTO 
 Cliente (Cedula,FechaNacimiento,PrimerNombre,SegundoNombre,PrimerApellido,SegundoApellido)
 VALUES 
-(1233891911,'18/07/1997','Marlon','Andres','Leon','Leon'),
-(1233891912,'17/08/1993','Margie','Andrea','Leon','Leon'),
-(1233891913,'19/01/1999','Mariana','Alejandra','Leon','Leon');
+(1233891911,'1997/07/18','Marlon','Andres','Leon','Leon'),
+(1233891912,'1993/08/17','Margie','Andrea','Leon','Leon'),
+(1233891913,'1999/01/19','Mariana','Alejandra','Leon','Leon');
 GO
+
+
 
 INSERT INTO 
 Compra (FechaCompra,Total) 
 VALUES 
-('01/02/2000',28670), --'Lenteja Diana'-'Harina Pan'-'Leche x 6'
-('11/02/2000',28670),
-('14/02/2000',28670);
+('2000/02/01',28670), --'Lenteja Diana'-'Harina Pan'-'Leche x 6'
+('2000/02/11',28670),
+('2000/02/14',28670);
 
 GO
 INSERT INTO 
 Producto_Compra_Cliente(CodigoCliente,CodigoCompra,CodigoProducto) 
 values 
-(1,1,1),
-(1,1,2),
-(1,1,3),
-(2,2,1),
-(2,2,2),
-(2,2,3),
-(3,3,1),
-(3,3,2),
-(3,3,3);
+(2,4,1),
+(2,4,2),
+(2,4,3),
+(3,5,1),
+(3,5,2),
+(3,5,3);
 
 
 GO
